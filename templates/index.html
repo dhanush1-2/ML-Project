@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title text-center mb-4">Welcome to Customer Churn Prediction</h1>
+                <p class="lead text-center">
+                    This application helps predict whether a customer is likely to churn based on various features.
+                </p>
+                <hr>
+                <div class="text-center">
+                    <h4>How it works:</h4>
+                    <ol class="list-group list-group-numbered mt-3">
+                        <li class="list-group-item">Fill in customer information using our simple form</li>
+                        <li class="list-group-item">Our machine learning model analyzes the data</li>
+                        <li class="list-group-item">Get instant prediction about customer churn probability</li>
+                    </ol>
+                    <div class="mt-4">
+                        <a href="/predict" class="btn btn-primary btn-lg">Start Prediction</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

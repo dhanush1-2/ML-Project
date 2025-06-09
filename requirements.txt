@@ -1,13 +1,9 @@
-sagemaker
 pandas
 numpy
-missingno
-nbformat
-matplotlib
-seaborn
-plotly
 scikit-learn
-xgboost
 catboost
-ipykernel
+xgboost
+dill
+pickle-mixin
+flask
 -e .
